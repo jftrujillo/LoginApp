@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LoginApp</string>
+    <string name="error">¡Error!</string>
+    <string name="campos_invalidos">Campos invalidos</string>
+    <string name="preferences_name">PREFERENCIAS_LOGIN</string>
+    <string name="dulces">Dulces</string>
+    <string name="asados">Asados</string>
+    <string name="comida_rapida">Comida Rapida</string>
 </resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dash_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhon.loginapp.DashBoardActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/hola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Hola: "
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/dulces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:text="@string/dulces"
+        android:textSize="@dimen/medium_letter"
+        />
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/asados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:text="@string/asados"
+        android:textSize="@dimen/medium_letter"
+        />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/comida_rapida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_margin"
+        android:text="@string/comida_rapida"
+        android:textSize="@dimen/medium_letter"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar preferencias"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        />
+
+
+</LinearLayout>
